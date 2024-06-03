@@ -1,0 +1,131 @@
+import { QuestionData } from "../types";
+
+export const questionData: QuestionData[] = [
+	{
+		id: "1",
+		question: "Сколько цветов в радуге?",
+		type: "single-choice",
+		correctAnswer: "opt3",
+		options: [
+			{ id: "opt1", text: "5" },
+			{ id: "opt2", text: "6" },
+			{ id: "opt3", text: "7" },
+			{ id: "opt4", text: "8" },
+		],
+	},
+	{
+		id: "2",
+		question: "Какая самая большая планета в Солнечной системе?",
+		type: "single-choice",
+		correctAnswer: "opt4",
+		options: [
+			{ id: "opt1", text: "Земля" },
+			{ id: "opt2", text: "Марс" },
+			{ id: "opt3", text: "Уран" },
+			{ id: "opt4", text: "Юпитер" },
+		],
+	},
+	{
+		id: "3",
+		question: "В каком году произошла Октябрьская революция в России?",
+		type: "single-choice",
+		correctAnswer: "opt1",
+		options: [
+			{ id: "opt1", text: "1917" },
+			{ id: "opt2", text: "1918" },
+			{ id: "opt3", text: "1916" },
+			{ id: "opt4", text: "1920" },
+		],
+	},
+	{
+		id: "4",
+		question: `Какой химический элемент имеет символ "O"?`,
+		type: "single-choice",
+		correctAnswer: "opt2",
+		options: [
+			{ id: "opt1", text: "Золото" },
+			{ id: "opt2", text: "Кислород" },
+			{ id: "opt3", text: "Озон" },
+			{ id: "opt4", text: "Олово" },
+		],
+	},
+	{
+		id: "5",
+		question: `Кто написал "Войну и мир"?`,
+		type: "single-choice",
+		correctAnswer: "opt3",
+		options: [
+			{ id: "opt1", text: "Александр Пушкин" },
+			{ id: "opt2", text: "Иван Тургенев" },
+			{ id: "opt3", text: "Лев Толстой" },
+			{ id: "opt4", text: "Федор Достоевский" },
+		],
+	},
+	{
+		id: "6",
+		question: "Какие газы основные составляющие земной атмосферы?",
+		type: "multiple-choice",
+		correctAnswer: "opt2,opt3",
+		options: [
+			{ id: "opt1", text: "Аргон" },
+			{ id: "opt2", text: "Кислород" },
+			{ id: "opt3", text: "Азот" },
+			{ id: "opt4", text: "Углекислый газ" },
+		],
+	},
+	{
+		id: "7",
+		question: "Какое море самое солёное?",
+		type: "single-choice",
+		correctAnswer: "opt2",
+		options: [
+			{ id: "opt1", text: "Средиземное" },
+			{ id: "opt2", text: "Мертвое" },
+			{ id: "opt3", text: "Красное" },
+			{ id: "opt4", text: "Черное" },
+		],
+	},
+	{
+		id: "8",
+		question: "Какая страна является местом зарождения олимпийских игр?",
+		type: "single-choice",
+		correctAnswer: "opt2",
+		options: [
+			{ id: "opt1", text: "Рим" },
+			{ id: "opt2", text: "Греция" },
+			{ id: "opt3", text: "Египет" },
+			{ id: "opt4", text: "Македония" },
+		],
+	},
+	{
+		id: "9",
+		question: "Какое самое большое животное на земле?",
+		type: "single-choice",
+		correctAnswer: "opt1",
+		options: [
+			{ id: "opt1", text: "Синий кит" },
+			{ id: "opt2", text: "Африканский слон" },
+			{ id: "opt3", text: "Гигантская кальмар" },
+			{ id: "opt4", text: "Белый медведь" },
+		],
+	},
+	{
+		id: "10",
+		question: "Какой город считается родиной пиццы?",
+		type: "single-choice",
+		correctAnswer: "opt3",
+		options: [
+			{ id: "opt1", text: "Рим" },
+			{ id: "opt2", text: "Милан" },
+			{ id: "opt3", text: "Неаполь" },
+			{ id: "opt4", text: "Венеция" },
+		],
+	},
+	{
+		id: "11",
+		question: "Столица России?",
+		type: "textual",
+		correctAnswer: "Москва",
+		textType: "short",
+	},
+];
